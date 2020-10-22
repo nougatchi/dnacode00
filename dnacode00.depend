@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1603393045 source:c:\users\riley\documents\projects\dnacode00\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	<sstream>
+	<fstream>
+	<time.h>
+	"DNAInterpreter.h"
+	"DNACompiler.h"
+	"version.h"
+
+1603392611 c:\users\riley\documents\projects\dnacode00\dnainterpreter.h
+	<stack>
+	<string>
+
+1603393352 source:c:\users\riley\documents\projects\dnacode00\dnainterpreter.cpp
+	"DNAInterpreter.h"
+
+1603392605 c:\users\riley\documents\projects\dnacode00\dnacompiler.h
+	<string>
+	<array>
+
+1603392640 source:c:\users\riley\documents\projects\dnacode00\dnacompiler.cpp
+	"DNACompiler.h"
+	<sstream>
+
+1603393809 c:\users\riley\documents\projects\dnacode00\version.h
+
