@@ -1,0 +1,21 @@
+# DNACode
+
+Please excuse me if this code is terrible.
+
+## Interpreter (dnacode00 -r <file>)
+
+The interpreter works in pairs. For example, the interpreter would parse
+
+`ATATATCGCG`
+
+as:
+
+`AT` `AT` `AT` `CG` `CG`
+
+which would make FC (Function Counter) and AC (Argument Counter) be equal to 3 and 2. (TMP = MEMORY[AC(2)])
+
+## Compiler (dnacode00 -c <file> [out])
+
+The compiler is extremely simple and converts DNACode Direct Machine Language into raw DNACode. I made it really only to make programming for this a tiny bit easier in dev, but its intergrated
+
+You can compile and run raw DDML by doing: `dnacode00 -rc <file>`. This also supports `-silent` making it possibly run faster depending on your terminal, by disabling all output when interpreting/compiling.
